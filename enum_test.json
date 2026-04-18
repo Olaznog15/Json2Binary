@@ -1,0 +1,35 @@
+{
+  "device ID": "DEV-99X",
+  "device Name (Internal)": "Servidor Secundario",
+  "ENUM": {
+    "EstadoDelSistema": {
+      "0": "APAGADO",
+      "1": "ENCENDIDO",
+      "2": "SUSPENDIDO",
+      "3": "ERROR"
+    },
+    "NivelesDeAlerta": {
+      "1": "BAJA",
+      "2": "MEDIA",
+      "3": "ALTA",
+      "4": "CRITICA"
+    }
+  },
+  "current state": 1,
+  "active alerts (list)": [
+    {
+      "alert ID!": 4,
+      "description message": "Fallo inminente del disco",
+      "acknowledged": false
+    },
+    {
+      "alert ID!": 2,
+      "description message": "Latencia alta detectada",
+      "acknowledged": true
+    }
+  ],
+  "configuration metadata": {
+    "IP address": "192.168.1.100",
+    "port #": 8080
+  }
+}
